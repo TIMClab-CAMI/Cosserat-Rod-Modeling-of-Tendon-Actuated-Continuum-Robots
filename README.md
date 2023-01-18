@@ -10,6 +10,9 @@ Feel free to contact us and we will be happy to share our codes before official 
 
 It models tendon actuated continuum robots through both the Newtonian and Lagrangian approaches. Compared to other references from the literature, both approaches are extended with novelties. The numerical implementation of the Newtonian approach features a tendon slope discontinuity term, allowing to model robots that involve such discontinuities. In the Lagrangian approach, the numerical resolution is performed through a linearization of the nonlinear static balance equations, which enables to use Newton-Raphson’s method (compared to the explicit time integration of an overdamped equivalent system in other references). Efficient spectral methods are used to calculate the residual vector and the Jacobian matrix thanks to a new BVP, called the inverse kineto-static BVP, and its tangent BVP. For more details, please refer to the paper.
 
+![helical15](https://user-images.githubusercontent.com/122893979/213212104-5cdcdc3c-d732-45ea-a963-83f159c2a799.png)
+
+
 ## Prerequisites
 * MATLAB
 
