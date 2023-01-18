@@ -23,5 +23,5 @@ This project is licensed under the GPL v3.0 License - see the [LICENSE](https://
 Feel free to submit pull requests and use the issue tracker to start a discussion about any bugs you encounter. Please provide a description of your MATLAB version and operating system for any software related bugs.
 
 ## Acknowledgements
-This work was supported by grants ANR-11-LABX-0004-01, ANR-19-P3IA-0003, ANR-20-CE33-0001, ANR-10-IAHU-02, and ANR-18-CE19-0012.
+This work was supported by grants ANR-11-LABX-0004-01, ANR-19-P3IA-0003, ANR-20-CE33-0001, ANR-10-IAHU-0002, and ANR-18-CE19-0012.
 
