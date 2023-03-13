@@ -1,9 +1,5 @@
 # Cosserat Rod Modeling of Tendon Actuated Continuum Robots
 
-## Warning !
-Codes will be released shortly!
-Feel free to contact us and we will be happy to share our codes before official release.
-
 ## This code is associated to the following paper, which we request to be explicitly cited in all forms of communication of your work:
 
 > Matthias Tummers, Vincent Lebastard, Frédéric Boyer, Jocelyne Troccaz, Benoît Rosa, and M. Taha Chikhaoui, “Cosserat Rod Modeling of Continuum Robots from Newtonian and Lagrangian Perspectives,” IEEE Transactions on Robotics (in press). DOI: 10.1109/TRO.2023.3238171
