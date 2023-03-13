@@ -4,10 +4,17 @@
 
 > Matthias Tummers, Vincent Lebastard, Frédéric Boyer, Jocelyne Troccaz, Benoît Rosa, and M. Taha Chikhaoui, “Cosserat Rod Modeling of Continuum Robots from Newtonian and Lagrangian Perspectives,” IEEE Transactions on Robotics (in press). DOI: 10.1109/TRO.2023.3238171
 
-It models tendon actuated continuum robots through both the Newtonian and Lagrangian approaches. Compared to other references from the literature, both approaches are extended with novelties. The numerical implementation of the Newtonian approach features a tendon slope discontinuity term, allowing to model robots that involve such discontinuities. In the Lagrangian approach, the numerical resolution is performed through a linearization of the nonlinear static balance equations, which enables to use Newton-Raphson’s method (compared to the explicit time integration of an overdamped equivalent system in other references). Efficient spectral methods are used to calculate the residual vector and the Jacobian matrix thanks to a new BVP, called the inverse kineto-static BVP, and its tangent BVP. For more details, please refer to the paper.
+It models tendon actuated continuum robots (TACRs) through both the Newtonian and Lagrangian approaches. Compared to other references from the literature, both approaches are extended with novelties. The numerical implementation of the Newtonian approach features a tendon slope discontinuity term, allowing to model robots that involve such discontinuities. In the Lagrangian approach, the numerical resolution is performed through a linearization of the nonlinear static balance equations, which enables to use Newton-Raphson’s method (compared to the explicit time integration of an overdamped equivalent system in other references). Efficient spectral methods are used to calculate the residual vector and the Jacobian matrix thanks to a new boundary value problem (BVP), called the inverse kineto-static BVP, and its tangent BVP. For more details, please refer to the paper available at : https://hal.science/hal-03935561/ .
 
 ![helical15](https://user-images.githubusercontent.com/122893979/213212104-5cdcdc3c-d732-45ea-a963-83f159c2a799.png)
 
+## Structure of the code
+* The entry-point of the code repository is the "main.m" script that reproduces the results from the associated paper (see above).
+* To simulate a TACR with the Newtonian approach use the "Newtonian.m" (file/) function.
+* To simulate a TACR with the Lagrangian approach use the "Lagrangian.m" (file/) function. The "Lagrangian_approach_subfunctions" folder contains the files with the subfunctions used by the "Lagrangian.m" function and its subfunctions.
+* The material parameters of the simulated TACR are defined in the "materials.m" file. The routing of the tendons are defined in the "tendons.m" file.
+* The "tools" folder contains various general order tools regarding Lie algebra, Chebyshev grids, Legendre polynomials, spectral integration, quaternion operations, saving, reading, and plotting results etc.
+* Simulation results are saved to the "simulation_results" folder. The simulation result files should be read with the "read_result_N.m" or "read_result_L.m" (files/) functions for simulation results obtained with the Newtonian and Lagrangian approaches respectively.
 
 ## Prerequisites
 * MATLAB
