@@ -13,8 +13,8 @@ It models tendon actuated continuum robots (TACRs) through both the Newtonian an
 * To simulate a TACR with the Newtonian approach use the "Newtonian.m" (file/) function.
 * To simulate a TACR with the Lagrangian approach use the "Lagrangian.m" (file/) function. The "Lagrangian_approach_subfunctions" folder contains the files with the subfunctions used by the "Lagrangian.m" function and its subfunctions.
 * The material parameters of the simulated TACR are defined in the "materials.m" file. The routing of the tendons are defined in the "tendons.m" file.
-* The "tools" folder contains various general order tools regarding Lie algebra, Chebyshev grids, Legendre polynomials, spectral integration, quaternion operations, saving, reading, and plotting results etc.
-* Simulation results are saved to the "simulation_results" folder. The simulation result files should be read with the "read_result_N.m" or "read_result_L.m" (files/) functions for simulation results obtained with the Newtonian and Lagrangian approaches respectively.
+* The "tools" folder contains various general order tools regarding Lie algebra, Chebyshev grids, Legendre polynomials, spectral integration, quaternion operations, saving, reading, plotting results, etc.
+* Simulation results are saved to the "simulation_results" folder. The simulation result files should be read with the "read_result_N.m" or "read_result_L.m" (files/) functions for simulation results obtained with the Newtonian and Lagrangian approaches, respectively.
 
 ## Prerequisites
 * MATLAB
