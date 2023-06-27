@@ -2,7 +2,7 @@
 
 ## This code is associated to the following paper, which we request to be explicitly cited in all forms of communication of your work:
 
-> Matthias Tummers, Vincent Lebastard, Frédéric Boyer, Jocelyne Troccaz, Benoît Rosa, and M. Taha Chikhaoui, “Cosserat Rod Modeling of Continuum Robots from Newtonian and Lagrangian Perspectives,” IEEE Transactions on Robotics (in press). DOI: 10.1109/TRO.2023.3238171
+> Matthias Tummers, Vincent Lebastard, Frédéric Boyer, Jocelyne Troccaz, Benoît Rosa, and M. Taha Chikhaoui (2023): “Cosserat Rod Modeling of Continuum Robots from Newtonian and Lagrangian Perspectives”. IEEE Transactions on Robotics, 39(3): 2360-2378. DOI: 10.1109/TRO.2023.3238171
 
 It models tendon actuated continuum robots (TACRs) through both the Newtonian and Lagrangian approaches. Compared to other references from the literature, both approaches are extended with novelties. The numerical implementation of the Newtonian approach features a tendon slope discontinuity term, allowing to model robots that involve such discontinuities. In the Lagrangian approach, the numerical resolution is performed through a linearization of the nonlinear static balance equations, which enables to use Newton-Raphson’s method (compared to the explicit time integration of an overdamped equivalent system in other references). Efficient spectral methods are used to calculate the residual vector and the Jacobian matrix thanks to a new boundary value problem (BVP), called the inverse kineto-static BVP, and its tangent BVP. For more details, please refer to the paper available at: https://hal.science/hal-03935561/ .
 
